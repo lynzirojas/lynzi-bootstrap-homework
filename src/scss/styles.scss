@@ -3,8 +3,23 @@
 // Bootstrap Sass Imports
 @import "node_modules/bootstrap/scss/bootstrap";
 
-.nav-link {
-    a:hover {
-        text-decoration: underline;
-    }
+.nav-item{
+  a:hover {
+    text-decoration: underline;
+  }
+  .active {
+    font-weight: bold;
+  }
+}
+
+.jumbotron {
+    background: url(../pirate-photos/pirate-ship.jpg) no-repeat top;
+    background-size: cover;
+    min-height: 450px;
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+  .display {
+    margin-top: 280px;
+  }
 }
