@@ -18,8 +18,39 @@
     min-height: 450px;
     color: white;
     text-align: center;
-    font-family: fantasy;
+    font-family: 'Black And White Picture', sans-serif;
   .display {
     margin-top: 280px;
   }
+}
+
+#lead {
+  border-right-style: solid;
+  border-right-color: grey;
+  .byline {
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 15px;
+  }
+  p {
+    font-style: italic;
+    line-height: 10px;
+  }
+}
+
+.container {
+  h2 {
+    font-family: fantasy;
+  }
+}
+
+footer {
+  text-align: center;
+  background-color: lightgrey;
+  margin-top: 15px;
+}
+
+#carousel {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
